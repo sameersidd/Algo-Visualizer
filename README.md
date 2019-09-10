@@ -2,6 +2,7 @@
 
 ## Algoritm visualizations using Chart.js
 
+Hosted on: [link](https://cocky-roentgen-120cf1.netlify.com)
 
 #### Currently supports:
 - Bubble Sort
