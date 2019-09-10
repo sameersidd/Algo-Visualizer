@@ -1,0 +1,77 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#nav {
+	background-color: #2ec0f9;
+	display: flex;
+	border: 1px solid #67aaf9;
+}
+
+#brand {
+	flex: 1;
+	align-self: center;
+	margin-right: 25%;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+#navmenu {
+	flex: 1;
+}
+
+#navmenu > ul {
+	display: flex;
+	list-style-type: none;
+}
+
+#navmenu > ul > li,
+a {
+	flex: 1;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	text-decoration-line: none;
+}
+
+#body {
+	background-size: 40px 40px;
+	background-image: radial-gradient(
+		circle,
+		rgba(0, 0, 0, 0.5) 1px,
+		rgba(0, 0, 0, 0) 1px
+	);
+	height: 93vh;
+}
+
+#content {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 1%;
+}
+
+canvas {
+	border: 1px solid rgb(12, 12, 12);
+	height: 400px !important;
+	width: 400px !important;
+	margin-left: 20%;
+	background-color: rgb(51, 99, 141);
+}
+
+.button {
+	background-color: #2ec0f9;
+	border: 1px solid #2ec0f9;
+	border-radius: 5px;
+	color: white;
+	margin-left: 35%;
+	margin-top: 3%;
+	font-size: 3vh;
+}
+
+#button:hover {
+	background-color: #67aaf9;
+	border: 1px solid #67aaf9;
+}
